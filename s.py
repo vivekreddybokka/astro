@@ -1,0 +1,6 @@
+import datetime
+import tzlocal
+
+file = [{'Key': 'processed/converted.csv', 'LastModified': datetime.datetime(2023, 1, 25, 19, 15, 51, tzinfo=tzlocal()), 'ETag': '"baa1e5130110d2118c5f00fb3ab68839"', 'Size': 16333, 'StorageClass': 'STANDARD', 'Owner': {'DisplayName': 'bokkavivek26', 'ID': '3dfe9c0bcfb8d793902691abf92ee6d4ed8600695703246b5ace5954794340e1'}}, {'Key': 'unprocessed/', 'LastModified': datetime.datetime(2023, 1, 24, 20, 4, 25, tzinfo=tzlocal()), 'ETag': '"d41d8cd98f00b204e9800998ecf8427e"', 'Size': 0, 'StorageClass': 'STANDARD', 'Owner': {'DisplayName': 'bokkavivek26', 'ID': '3dfe9c0bcfb8d793902691abf92ee6d4ed8600695703246b5ace5954794340e1'}}, {'Key': 'unprocessed/People_data.csv', 'LastModified': datetime.datetime(2023, 1, 24, 21, 36, 21, tzinfo=tzlocal()), 'ETag': '"129e9d9df44bb98ed8e13badb61fa883"', 'Size': 16248, 'StorageClass': 'STANDARD', 'Owner': {'DisplayName': 'bokkavivek26', 'ID': '3dfe9c0bcfb8d793902691abf92ee6d4ed8600695703246b5ace5954794340e1'}}]
+
+print (file['Key'])
